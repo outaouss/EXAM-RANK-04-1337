@@ -1,4 +1,4 @@
-=def constellation_mapper(stars: list[tuple[int, int]], dim: int) -> list[str]:
+def constellation_mapper(stars: list[tuple[int, int]], dim: int) -> list[str]:
     if not stars:
         res = []
         for _ in range(2):
